@@ -1,0 +1,4 @@
+baseURL = 'http://urfit.nu/'
+languageCode = 'en-us'
+title = 'URfit'
+theme = 'massively'

@@ -1,4 +1,32 @@
-baseURL = 'http://urfit.nu/'
-languageCode = 'en-us'
+baseURL = 'https://urfit.nu/'
+languageCode = 'nl-nl'
 title = 'URfit'
 theme = 'massively'
+googleanalytics = ""
+disqusShortname = ""
+disableKinds = ["taxonomy", "taxonomyTerm", "section"]
+defaultContentLanguage = "nl"
+
+
+# [params]
+  # set below parameter to define a favicon
+  # favicon = "favicon.ico"
+  # set to change date format
+  # dateFormat = "2.1.2006"
+  # backgroundPath = "images/bg.jpg"
+
+# Below parameters can be set to override default post settings
+# [params.posts]
+#     folderName = "post"
+#     pageSize = "6"
+#     featuredPost = "true"
+#     paginationPages = 2
+#     showFirstLast = false
+ 
+[languages]
+[languages.nl]
+  languageName = "Nederlands"
+  title = "URfit"
+#[languages.li]
+#  languageName = "Limburgs"
+#  title = "URfit"

@@ -1,5 +1,9 @@
 items:
 - title: 'Wat we doen'
-  url: '/wat-we-doen'
+  url: '#wat-we-doen'
 - title: 'Wie we zijn'
-  url: '/wie-we-zijn'
+  url: '#wie-we-zijn'
+- title: 'Waar is URfit'
+  url: '#waar-is-urfit'
+- title: 'Wat kost URfit'
+  url: '#wat-kost-urfit'

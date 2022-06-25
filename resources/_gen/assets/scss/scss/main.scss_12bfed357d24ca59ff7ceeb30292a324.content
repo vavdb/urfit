@@ -2028,8 +2028,7 @@ table.alt tbody tr td {
   -ms-transition: opacity 0.5s ease;
   transition: opacity 0.5s ease;
   position: relative;
-  z-index: 1;
-  overflow: hidden; }
+  z-index: 1; }
   #wrapper > .bg {
     position: absolute;
     top: 0;
@@ -2306,7 +2305,7 @@ table.alt tbody tr td {
   -webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
   -ms-transition: -ms-transform 1s ease, opacity 1s ease;
   transition: transform 1s ease, opacity 1s ease;
-  background: rgba(255, 255, 255, 0.175);
+  background: #212931;
   height: 4rem;
   line-height: 4rem;
   margin: -4rem auto 0 auto;
@@ -2315,7 +2314,11 @@ table.alt tbody tr td {
   position: relative;
   width: calc(100% - 4rem);
   max-width: 72rem;
-  z-index: 2; }
+  z-index: 3;
+  align-self: flex-start;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0; }
   #nav ul.divided li {
     border-top-color: #ffffff; }
   #nav ul.icons li a.icon:hover:before {
@@ -2374,7 +2377,7 @@ table.alt tbody tr td {
         display: block;
         font-size: 0.8rem;
         outline: none;
-        padding: 0 2rem; }
+        padding: 0 1.5rem; }
         #nav ul.links li a:hover {
           color: inherit !important;
           background-color: rgba(255, 255, 255, 0.1); }

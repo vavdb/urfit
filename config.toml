@@ -23,6 +23,12 @@ defaultContentLanguage = "nl"
 #     paginationPages = 2
 #     showFirstLast = false
  
+ [permalinks]
+  posts = '/:filename'
+
+[markup.goldmark.renderer]
+  hardWraps = true
+
 [languages]
 [languages.nl]
   languageName = "Nederlands"

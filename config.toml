@@ -28,7 +28,8 @@ defaultContentLanguage = "nl"
 
 [markup.goldmark.renderer]
   hardWraps = true
-
+  unsafe = true
+  
 [languages]
 [languages.nl]
   languageName = "Nederlands"

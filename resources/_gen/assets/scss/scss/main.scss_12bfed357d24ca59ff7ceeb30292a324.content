@@ -2047,10 +2047,6 @@ table.alt tbody tr td {
       position: fixed;
       width: 100vw;
       height: 100vh; }
-    #wrapper > .bg.color-normal {
-      background-color: #0f47af; }
-    #wrapper > .bg.color-alternate {
-      background-color: #fcdd09; }
   #wrapper.fade-in:before {
     pointer-events: none;
     -moz-transition: opacity 1s ease-in-out;
@@ -2310,7 +2306,7 @@ table.alt tbody tr td {
   -webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
   -ms-transition: -ms-transform 1s ease, opacity 1s ease;
   transition: transform 1s ease, opacity 1s ease;
-  background: #0f47af;
+  background: #fcdd09;
   height: 4rem;
   line-height: 4rem;
   margin: -4rem auto 0 auto;
@@ -2323,8 +2319,7 @@ table.alt tbody tr td {
   align-self: flex-start;
   position: -webkit-sticky;
   position: sticky;
-  top: 0;
-  transition: background-color 500ms ease; }
+  top: 0; }
   #nav ul.divided li {
     border-top-color: #ffffff; }
   #nav ul.icons li a.icon:hover:before {
@@ -2352,14 +2347,6 @@ table.alt tbody tr td {
     border-color: #ffffff; }
   #nav hr {
     border-bottom-color: #ffffff; }
-  #nav.color-alternate {
-    background-color: #0f47af; }
-    #nav.color-alternate li a {
-      color: #ffffff; }
-  #nav.color-normal {
-    background-color: #fcdd09; }
-    #nav.color-normal li a {
-      color: #212931; }
   #nav ul.links {
     display: -moz-flex;
     display: -webkit-flex;
@@ -2391,7 +2378,8 @@ table.alt tbody tr td {
         display: block;
         font-size: 0.8rem;
         outline: none;
-        padding: 0 1.5rem; }
+        padding: 0 1.5rem;
+        color: #212931; }
         #nav ul.links li a:hover {
           color: inherit !important;
           background-color: rgba(255, 255, 255, 0.1); }

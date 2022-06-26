@@ -6,4 +6,4 @@
 	url = https://github.com/curtiscde/hugo-theme-massively
 [submodule "themes/massively"]
 	path = themes/massively
-	url = https://github.com/curtiscde/hugo-theme-massively
+url=https://github.com/vavdb/hugo-theme-urfit

@@ -1,4 +1,4 @@
-contactformaction: 'post-action'
+contactformaction: '/contact-success'
 
 address:
 - line: 'Torenstraat 13'

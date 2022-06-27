@@ -2165,6 +2165,11 @@ table.alt tbody tr td {
       transform: translateY(2rem);
       opacity: 0;
       visibility: hidden; }
+  #intro img {
+    max-width: 80%;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto; }
   #intro.hidden {
     pointer-events: none;
     -moz-transform: translateY(2rem);
@@ -2271,9 +2276,9 @@ table.alt tbody tr td {
     -ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease, -ms-transform 0.5s ease, visibility 0.5s;
     transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease, transform 0.5s ease, visibility 0.5s;
     pointer-events: auto;
-    border-style: solid;
+    border-style: none;
     border-color: #ffffff;
-    border-width: 5px !important;
+    border-width: 0px !important;
     font-family: "Source Sans Pro", Helvetica, sans-serif;
     font-size: 2.25rem;
     font-weight: 900;
@@ -2285,6 +2290,8 @@ table.alt tbody tr td {
     #header .logo:hover {
       border-color: #fcdd09 !important;
       color: #fcdd09 !important; }
+    #header .logo img {
+      max-width: 120px; }
   @media screen and (max-width: 980px) {
     #header {
       height: 14rem;
@@ -2381,14 +2388,15 @@ table.alt tbody tr td {
         padding: 0 1.5rem;
         color: #212931; }
         #nav ul.links li a:hover {
-          color: inherit !important;
-          background-color: rgba(255, 255, 255, 0.1); }
+          color: #212931 !important;
+          background-color: rgba(15, 71, 175, 0.1); }
       #nav ul.links li.active {
         background-color: #ffffff; }
         #nav ul.links li.active a {
           color: #212931; }
           #nav ul.links li.active a:hover {
-            color: #fcdd09 !important; }
+            color: #212931 !important;
+            background-color: rgba(15, 71, 175, 0.1); }
   #nav ul.icons {
     -moz-flex-grow: 0;
     -webkit-flex-grow: 0;
@@ -2399,6 +2407,8 @@ table.alt tbody tr td {
     -ms-flex-shrink: 0;
     flex-shrink: 0;
     margin-bottom: 0; }
+    #nav ul.icons li a:hover {
+      color: #ffffff !important; }
   @media screen and (max-width: 980px) {
     #nav {
       display: none; } }

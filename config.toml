@@ -1,6 +1,7 @@
 baseURL = 'https://urfit.nu/'
 languageCode = 'nl-nl'
 title = 'URfit'
+headerLogo = 'images/logo 3 - witte letters - transparant.svg'
 theme = 'massively'
 googleanalytics = ""
 disqusShortname = ""

@@ -1,4 +1,8 @@
+formtitle: 'Direct aanmelden'
+
 contactformaction: '/contact-success'
+
+contacttitle: 'Of neem contact op'
 
 address:
 - line: 'Torenstraat 13'

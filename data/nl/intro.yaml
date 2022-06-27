@@ -8,7 +8,9 @@ description:
 - line: ' URfit is een community. Wij zorgen naast trainingen, ook voor gezelligheid en inspiratie. Fit zijn begint bij jezelf, maar samen komen we verder.'
 - line: ' URfit is lokaal. We zijn een bootcamp en lifestyle onderneming in Urmond.'
 
-urfit_is:
-- "persoonlijk"
-- "een community"
-- "lokaal"
+animatedTitle:
+  title: 'Waarom URfit?'
+  lines:
+  - line: 'persoonlijk'
+  - line: 'een community'
+  - line: 'lokaal'

@@ -1,6 +1,6 @@
 +++
-title = 'Bootcamp Clinics'
-slug = 'bootcamp-clinic'
+title = 'URfit voor bedrijven'
+slug = 'bedrijven/'
 image = 'images/gd/20220706 - URFIT - © Gerlach Delissen Photography-12.jpg'
 description = 'Ben je op zoek naar een bootcamp clinic voor een bedrijf, afdeling of team? URfit verzorgt ook bootcamps op locatie!'
 disableComments = true

@@ -8,12 +8,11 @@ disableComments = true
 
 ## Pietenbootcamp aanmeldformulier!
 
-Ja, we melden ons graag aan voor de ouder-kind pietenbootcamp!
+# Bedankt voor je aanmelding!
 
 Locatie: Molenpark, Urmond (Swentiboldlaan 29)
 Wanneer: maandag 4 december 20:00-21:00
 
-# Bedankt voor je aanmelding!
 
 
 <br />

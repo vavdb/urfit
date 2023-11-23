@@ -22,12 +22,12 @@ Wanneer: maandag 4 december 20:00-21:00
 </p>        
 <div class="fields">
     <div class="field">
-    <label for="name">Naam kind (eventueel meerdere?)</label>
+    <label for="name">Naam kind (eventueel meerdere)</label>
     <input type="text" name="name-child" id="name-child" />
     </div>
     <div class="field">
-    <label for="name">Leeftijden</label>
-    <input type="text" name="name-child" id="name-child" />
+    <label for="name">Leeftijd(en)</label>
+    <input type="text" name="age-child" id="age-child" />
     </div>
     <div class="field">
     <label for="name">Naam ouder</label>

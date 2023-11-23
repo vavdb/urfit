@@ -14,7 +14,7 @@ Locatie: Molenpark, Urmond (Swentiboldlaan 29)
 Wanneer: maandag 4 december 20:00-21:00
 
 
-<form method="post" action="{{ . }}" name="contact" data-netlify-recaptcha="true" netlify-honeypot="benjeechteenmens" data-netlify="true">
+<form method="post" action="/bedanktpiet" name="pietenbootcamp" data-netlify-recaptcha="true" netlify-honeypot="benjeechteenmens" data-netlify="true">
 <p class="hidden" style="display: none;">
     <label>
     Don’t fill this out if you’re human: <input type="text" name="benjeechteenmens" />
@@ -23,6 +23,10 @@ Wanneer: maandag 4 december 20:00-21:00
 <div class="fields">
     <div class="field">
     <label for="name">Naam kind (eventueel meerdere?)</label>
+    <input type="text" name="name-child" id="name-child" />
+    </div>
+    <div class="field">
+    <label for="name">Leeftijden</label>
     <input type="text" name="name-child" id="name-child" />
     </div>
     <div class="field">

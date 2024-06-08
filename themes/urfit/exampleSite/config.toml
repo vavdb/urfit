@@ -1,13 +1,10 @@
-baseURL = 'https://urfit.nu/'
-languageCode = 'nl-nl'
-title = 'URfit'
-headerLogo = '/images/logo 3 - witte letters - transparant.svg'
-theme = 'urfit'
+languageCode = "en-us"
+title = "Massively"
+baseURL = "http://localhost:1313/"
+theme = "hugo-theme-massively"
 googleanalytics = ""
 disqusShortname = ""
 disableKinds = ["taxonomy", "taxonomyTerm", "section"]
-defaultContentLanguage = "nl"
-
 
 # [params]
   # set below parameter to define a favicon
@@ -20,21 +17,17 @@ defaultContentLanguage = "nl"
 # [params.posts]
 #     folderName = "post"
 #     pageSize = "6"
-#     featuredPost = "true"
+#     featuredPost = true
 #     paginationPages = 2
 #     showFirstLast = false
  
- [permalinks]
-  posts = '/:filename'
-
-[markup.goldmark.renderer]
-  hardWraps = true
-  unsafe = true
-  
 [languages]
-[languages.nl]
-  languageName = "Nederlands"
-  title = "URfit"
-#[languages.li]
-#  languageName = "Limburgs"
-#  title = "URfit"
+[languages.en]
+  languageName = "English"
+[languages.es]
+  languageName = "Español"
+  title = "Massively - Versión Español"
+#[languages.fr]
+#  languageName = "Français"
+#  title = "Massively - Version Française"
+

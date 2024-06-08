@@ -1,0 +1,38 @@
+[CONTACT_ADDRESS]
+  other = "Adres"
+[CONTACT_EMAIL]
+  other = "E-mail"
+[CONTACT_FORM_FIELD_PHONE]
+  other = "Telefoon"
+[CONTACT_FORM_FIELD_EMAIL]
+  other = "E-mail"
+[CONTACT_FORM_FIELD_MESSAGE]
+  other = "Bericht"
+[CONTACT_FORM_FIELD_NAME]
+  other = "Naam"
+[CONTACT_FORM_SUBMIT_SEND_MESSAGE]
+  other = "Versturen"
+[CONTACT_WHATSAPP]
+  other = "Whatsapp"
+[CONTACT_PHONE]
+  other = "Telefoon"
+[CONTACT_SOCIAL]
+  other = "Sociale Media"
+[COPYRIGHT_MESSAGE_1]
+  other = "Vincability"
+[COPYRIGHT_MESSAGE_2]
+  other = "Based on Massively from html5up.net"
+[INTRO_CONTINUE]
+  other = "Verder"
+[NAV_MENU]
+  other = "Menu"
+[NAV_CONTACT]
+  other = "Kom in Contact"
+[PAGINATION_NEXT]
+  other = "Volgende"
+[PAGINATION_PREVIOUS]
+  other = "Vorige"
+[PAGINATION_FIRST]
+  other = "Eerste"
+[PAGINATION_LAST]
+  other = "Laatste"

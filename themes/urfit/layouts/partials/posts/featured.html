@@ -1,0 +1,24 @@
+<!-- Featured Post -->
+{{ $data := .siteData }}
+{{ range .firstpost }}
+<article class="post featured" id="{{ .Slug }}">
+    <header class="major">
+        {{ if not .Date.IsZero }}
+        <span class="date">{{ .Date.Format (.Site.Params.DateFormat | default "January 2, 2006") }}</span>
+        {{ end }}
+        <h2>{{ .Title }}</h2>
+        {{ if .Description }}
+        <p>{{ .Description }}</p>
+        {{ end }}
+    </header>
+    {{ if .Params.image }}
+    <div class="image main"><img src="{{ .Params.image | relURL }}" alt="" /></div>
+    {{ end }}
+
+    {{ .Content }}
+
+    {{ if .Params.imageBottom }}
+    <div class="image main"><img src="{{ .Params.imageBottom | relURL }}" alt="" /></div>
+    {{ end }}
+</article>
+{{ end }}
